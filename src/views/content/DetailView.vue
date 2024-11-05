@@ -14,8 +14,6 @@
         <h2 class="text-center mb-3">{{ coinStore.coin.name }}</h2>
         <router-link to="/" class="btn btn-sm btn-secondary mb-3">Back</router-link>
         <img :src="coinStore.coin.image?.large" :alt="coinStore.coin.name" class="d-block mx-auto" />
-
-        <!-- Pastikan data ada sebelum menampilkannya -->
         <p><strong>Symbol:</strong> {{ coinStore.coin.symbol?.toUpperCase() }}</p>
         <p v-if="coinStore.coin.market_data?.current_price">
           <strong>Current Price:</strong> ${{ coinStore.coin.market_data.current_price.usd }}
