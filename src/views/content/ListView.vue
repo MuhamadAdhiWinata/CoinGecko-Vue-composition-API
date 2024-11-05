@@ -9,7 +9,7 @@
       </div>
     </div>
 
-    <!-- Konten Kartu -->
+    <!-- Konten Card -->
     <div v-else class="row">
       <div class="col-md-4 mb-4" v-for="coin in coinStore.coins" :key="coin.id" @click="goToDetail(coin.id)">
         <div class="card shadow border rounded text-center">
