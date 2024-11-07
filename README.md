@@ -1,5 +1,7 @@
 # coinGecko
 
+https://github.com/user-attachments/assets/4d24f989-f677-4ae7-acb3-b191b7c6a8de
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
